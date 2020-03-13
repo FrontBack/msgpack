@@ -121,7 +121,7 @@ func (d *decoder) asInterface(offset int, k reflect.Kind) (interface{}, int, err
 		if err != nil {
 			return nil, 0, err
 		}
-		v := make(map[interface{}]interface{}, l)
+		v := make(map[string]interface{}, l)
 		for i := 0; i < l; i++ {
 			key, o2, err := d.asInterface(o, k)
 			if err != nil {
