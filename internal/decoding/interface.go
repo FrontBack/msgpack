@@ -131,7 +131,7 @@ func (d *decoder) asInterface(offset int, k reflect.Kind) (interface{}, int, err
 			if err != nil {
 				return nil, 0, err
 			}
-			v[key] = value
+			v[key.(string)] = value
 			o = o2
 		}
 		offset = o
