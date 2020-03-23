@@ -4,7 +4,7 @@ import (
 	"math"
 	"reflect"
 
-	"github.com/shamaton/msgpack/def"
+	"github.com/FrontBack/msgpack/def"
 )
 
 func (e *encoder) calcFixedSlice(rv reflect.Value) (int, bool) {

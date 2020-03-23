@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/shamaton/msgpack"
-	"github.com/shamaton/msgpack/def"
-	"github.com/shamaton/msgpack/ext"
+	"github.com/FrontBack/msgpack"
+	"github.com/FrontBack/msgpack/def"
+	"github.com/FrontBack/msgpack/ext"
 )
 
 var now time.Time

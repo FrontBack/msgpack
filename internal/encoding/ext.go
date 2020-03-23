@@ -3,8 +3,8 @@ package encoding
 import (
 	"reflect"
 
-	"github.com/shamaton/msgpack/ext"
-	"github.com/shamaton/msgpack/time"
+	"github.com/FrontBack/msgpack/ext"
+	"github.com/FrontBack/msgpack/time"
 )
 
 var extCoderMap = map[reflect.Type]ext.Encoder{time.Encoder.Type(): time.Encoder}

@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/shamaton/msgpack/def"
+	"github.com/FrontBack/msgpack/def"
 )
 
 var emptyString = ""

@@ -3,7 +3,7 @@ package encoding
 import (
 	"math"
 
-	"github.com/shamaton/msgpack/def"
+	"github.com/FrontBack/msgpack/def"
 )
 
 func (e *encoder) calcFloat32(v float64) int {

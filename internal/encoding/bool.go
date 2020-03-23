@@ -1,6 +1,6 @@
 package encoding
 
-import "github.com/shamaton/msgpack/def"
+import "github.com/FrontBack/msgpack/def"
 
 func (e *encoder) calcBool() int {
 	return 0
